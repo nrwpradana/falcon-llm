@@ -1,1 +1,3 @@
-apikey_hungingface="api-key"
+import streamlit as st
+
+apikey_hungingface=st.secrets["api-key"]
